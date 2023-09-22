@@ -19,4 +19,5 @@ public class OrangeHRMHomePageAction {
 	public String getHomePageText() {
 		return homeLocator.homePage.getText();
 	}
+	//
 }
