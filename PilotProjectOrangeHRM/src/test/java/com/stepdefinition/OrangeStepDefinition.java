@@ -19,9 +19,12 @@ public void open_browser_orange_hrm(String string) {
 	DriverClass.openPage(string);
 }
 
-@When("User enter the UserName and PassWord")
-public void user_enter_the_user_name_and_pass_word() {
-	ol.login();
+@When("^User enter the (.*) and (.*)$")
+
+public void user_enter_the_user_name_and_pass_word(String UserName,String PassWord) {
+
+	ol.login(UserName, PassWord);
+
 }
 
 @When("click the Login btn")

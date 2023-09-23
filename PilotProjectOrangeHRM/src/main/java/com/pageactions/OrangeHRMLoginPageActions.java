@@ -33,33 +33,11 @@ public class OrangeHRMLoginPageActions {
 		loginPageLocators.clickBtn.click();
 	}
 	
-	public void login() {
-		File file = new File("C:\\Users\\sjamadar\\Desktop\\SeleniumGit\\Pilot_Project\\PilotProjectOrangeHRM\\src\\test\\resources\\Features\\data.properties");
-		
-		FileInputStream fileInput = null;
-	    try {
-
-	    	fileInput = new FileInputStream(file);
-
-	   } catch(FileNotFoundException e) {
-
-		   e.printStackTrace();
-
-	   }
-
-	    Properties prop = new Properties();
-
-	    try {
-
-			prop.load(fileInput);
-
-	    } catch(IOException e1) {
-
-	    	e1.printStackTrace();
-
-	    }
+public void login(String userName,String passWord) {
 	    
-	    this.setUserName(prop.getProperty("userName"));
-	    this.setPassWord(prop.getProperty("passWord"));
+	    this.setUserName(userName);
+	    this.setPassWord(passWord);
+
 	}
-}
+	}
+
