@@ -64,9 +64,13 @@ public class DriverClass {
 	// Closes the currently active tab in the browser.267910 code26
 	public static void closeTab() {
 		if (driver != null) {
+
 			//driver.close();
-		}
+
+		//	driver.close();
+
 		
 		driverClass = null;
 	}
+}
 }
