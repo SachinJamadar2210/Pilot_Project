@@ -8,24 +8,19 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class DriverClass {
-
-	// Declaration of required variables...
 	private static DriverClass driverClass;
 	private static WebDriver driver;
 	private static WebDriverWait wait;
 	private final static int TIMEOUT = 10;
-
 	DriverClass() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		wait = new WebDriverWait(driver, Duration.ofSeconds(TIMEOUT));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
 	}
-
 	public static void explicitWaitClickable(WebElement explicitWait) {
 		wait.until(ExpectedConditions.elementToBeClickable(explicitWait));
 	}
-	
 	public static void explicitWaitVisibility(WebElement explicitWait) {
 		wait.until(ExpectedConditions.visibilityOf(explicitWait));
 	}
@@ -49,14 +44,10 @@ public class DriverClass {
 		
 		driverClass = null;
 	}
-
-	// Closes the currently active tab in the browser.
-	public static void closeTab() {
+		public static void closeTab() {
 		if (driver != null) {
 			driver.close();
 		}
-		
 		driverClass = null;
 	}
-		
 }

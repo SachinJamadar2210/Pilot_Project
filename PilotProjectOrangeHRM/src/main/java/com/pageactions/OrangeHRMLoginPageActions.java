@@ -1,15 +1,9 @@
 package com.pageactions;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.Properties;
 
 import org.openqa.selenium.support.PageFactory;
 
 import com.pageobjects.OrangeHRMLocator;
 import com.utils.DriverClass;
-
 
 public class OrangeHRMLoginPageActions {
 	OrangeHRMLocator loginPageLocators = null;
@@ -31,31 +25,7 @@ public class OrangeHRMLoginPageActions {
 		loginPageLocators.clickBtn.click();
 	}
 	public void login(String userName,String passWord) {
-//File file=new File("C:\\Users\\sjamadar\\Desktop\\SeleniumGit\\Pilot_Project\\PilotProjectOrangeHRM\\src\\test\\resources\\data.properties");
 
-//		FileInputStream fileInput=null;
-//
-//		try {
-//
-//			fileInput=new FileInputStream(file);
-//
-//		} catch (FileNotFoundException e) {
-//
-//			e.printStackTrace();
-//
-//		}
-//
-//		Properties prop= new Properties();
-//
-//		try {
-//
-//			prop.load(fileInput);
-//
-//		} catch (IOException e) {
-//
-//			e.printStackTrace();
-//
-//		}
 	    this.setUserName(userName);
 	    this.setPassWord(passWord);
 	}

@@ -6,9 +6,7 @@ import com.utils.DriverClass;
 public class OrangeHRMHomePageAction {
 	OrangeHRMHomePage homeLocator = null;
 	
-	public OrangeHRMHomePageAction() {
-		// TODO Auto-generated constructor stub
-		
+	public OrangeHRMHomePageAction() {		
 		this.homeLocator = new OrangeHRMHomePage();
 		PageFactory.initElements(DriverClass.getDriver(), homeLocator);
 	}
