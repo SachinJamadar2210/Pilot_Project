@@ -29,5 +29,4 @@ public class OrangeHRMLoginPageActions {
 	    this.setUserName(userName);
 	    this.setPassWord(passWord);
 	}
-	
 }

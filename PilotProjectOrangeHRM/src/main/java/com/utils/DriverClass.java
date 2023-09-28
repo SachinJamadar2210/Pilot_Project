@@ -24,8 +24,6 @@ public class DriverClass {
 	public static void explicitWaitVisibility(WebElement explicitWait) {
 		wait.until(ExpectedConditions.visibilityOf(explicitWait));
 	}
-
-
 	public static void openPage(String url) {
 		driver.get(url);
 	}
@@ -41,7 +39,6 @@ public class DriverClass {
 		if (driver != null) {
 			driver.quit();
 		}
-		
 		driverClass = null;
 	}
 		public static void closeTab() {

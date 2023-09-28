@@ -6,15 +6,15 @@ When User enter the <UserName> and <PassWord>
 And click the Login btn
 Then Validating Login Page
 
-@Invalid_Credential
+@Valid_Credential
 Examples: 
 |UserName|PassWord|
 |Admin|admin123|
-|One8|admin|
 
-@Valid_Credential
+
+@Invalid_Credential
 Examples:
 |UserName|PassWord|
-|Admin|admin123|
+|Admin|admin13|
 
 

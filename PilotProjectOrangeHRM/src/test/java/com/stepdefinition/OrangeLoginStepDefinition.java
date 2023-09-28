@@ -16,7 +16,7 @@ public class OrangeLoginStepDefinition {
 	
 	@Given("Open Browser OrangeHRM {string}")
 	public void open_browser_orange_hrm(String string) {
-		driverClass.setUpDriver();
+		DriverClass.setUpDriver();
 		DriverClass.openPage(string);
 	}
 	
