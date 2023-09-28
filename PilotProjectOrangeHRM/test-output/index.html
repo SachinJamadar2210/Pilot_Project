@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\sjamadar\AppData\Local\Temp\testng-eclipse--408860886\testng-customsuite.xml</span>
+                    <span>C:\Users\pcpatil\AppData\Local\Temp\testng-eclipse-1282382998\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">6 methods, 2 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runner.RunnerClass$CucumberRunnerTests" class="method navigator-link" hash-for-method="runScenario(&quot;Checking Employee list&quot;, &quot;Check PIM module&quot;)">runScenario("Checking Employee list", "Check PIM module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runner.RunnerClass$CucumberRunnerTests" class="method navigator-link" hash-for-method="runScenario(&quot;Search for reports&quot;, &quot;Check PIM module&quot;)">runScenario("Search for reports", "Check PIM module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +122,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.runner.RunnerClass$CucumberRunnerTests" class="method navigator-link" hash-for-method="runScenario(&quot;To validate the Login feature of the OrangeHRM&quot;, &quot;Orange HRM Login feature test&quot;)">runScenario("To validate the Login feature of the OrangeHRM", "Orange HRM Login feature test")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.runner.RunnerClass$CucumberRunnerTests" class="method navigator-link" hash-for-method="runScenario(&quot;Employee checks configuration&quot;, &quot;Check PIM module&quot;)">runScenario("Employee checks configuration", "Check PIM module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runner.RunnerClass$CucumberRunnerTests" class="method navigator-link" hash-for-method="runScenario(&quot;Employee checks add employee&quot;, &quot;Check PIM module&quot;)">runScenario("Employee checks add employee", "Check PIM module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runner.RunnerClass$CucumberRunnerTests" class="method navigator-link" hash-for-method="runScenario(&quot;Checking Employee list&quot;, &quot;Check PIM module&quot;)">runScenario("Checking Employee list", "Check PIM module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.runner.RunnerClass$CucumberRunnerTests" class="method navigator-link" hash-for-method="runScenario(&quot;Employee checks configuration&quot;, &quot;Check PIM module&quot;)">runScenario("Employee checks configuration", "Check PIM module")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -118,6 +152,77 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.runner.RunnerClass$CucumberRunnerTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Checking Employee list&quot;, &quot;Check PIM module&quot;)">
+                  </a> <!-- runScenario("Checking Employee list", "Check PIM module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Checking Employee list","Check PIM module")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;oxd-select-text-input&apos;][normalize-space()=&apos;-- Select --&apos;])[3]&quot;}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28823a367ee22942970adb5d5a7b940d, findElement {using=xpath, value=(//div[@class=&apos;oxd-select-text-input&apos;][normalize-space()=&apos;-- Select --&apos;])[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\pcpatil\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54824}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54824/devtoo..., se:cdpVersion: 117.0.5938.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28823a367ee22942970adb5d5a7b940d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy42.click(Unknown Source)
+	at com.pageactions.EmployeeListAction.enterDetails(EmployeeListAction.java:52)
+	at com.pageactions.EmployeeListAction.detailsOfEmployee(EmployeeListAction.java:78)
+	at com.stepdefinition.EmployeeListDefinition.enter_the_details(EmployeeListDefinition.java:14)
+	at ✽.enter the details(file:///C:/Users/pcpatil/Desktop/GitEXP/Pilot_Project/PilotProjectOrangeHRM/src/test/resources/Features/pimfeature.feature:64)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search for reports&quot;, &quot;Check PIM module&quot;)">
+                  </a> <!-- runScenario("Search for reports", "Check PIM module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search for reports","Check PIM module")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.stepdefinition.SearchReportDefinition.assert_the_record(SearchReportDefinition.java:55)
+	at ✽.assert the record(file:///C:/Users/pcpatil/Desktop/GitEXP/Pilot_Project/PilotProjectOrangeHRM/src/test/resources/Features/pimfeature.feature:56)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -126,10 +231,40 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;To validate the Login feature of the OrangeHRM&quot;, &quot;Orange HRM Login feature test&quot;)">
-                  </a> <!-- runScenario("To validate the Login feature of the OrangeHRM", "Orange HRM Login feature test") -->
+                  <a name="runScenario(&quot;Employee checks configuration&quot;, &quot;Check PIM module&quot;)">
+                  </a> <!-- runScenario("Employee checks configuration", "Check PIM module") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("To validate the Login feature of the OrangeHRM","Orange HRM Login feature test")</span>
+                  <span class="parameters">("Employee checks configuration","Check PIM module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Employee checks add employee&quot;, &quot;Check PIM module&quot;)">
+                  </a> <!-- runScenario("Employee checks add employee", "Check PIM module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Employee checks add employee","Check PIM module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Checking Employee list&quot;, &quot;Check PIM module&quot;)">
+                  </a> <!-- runScenario("Checking Employee list", "Check PIM module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Checking Employee list","Check PIM module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Employee checks configuration&quot;, &quot;Check PIM module&quot;)">
+                  </a> <!-- runScenario("Employee checks configuration", "Check PIM module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Employee checks configuration","Check PIM module")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -139,7 +274,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sjamadar\AppData\Local\Temp\testng-eclipse--408860886\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\pcpatil\AppData\Local\Temp\testng-eclipse-1282382998\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -196,16 +331,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'com.runner.RunnerClass$CucumberRunnerTests')
-data.setCell(0, 3, 22108);
+data.setCell(0, 3, 25902);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.runner.RunnerClass$CucumberRunnerTests')
+data.setCell(1, 3, 25139);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.runner.RunnerClass$CucumberRunnerTests')
+data.setCell(2, 3, 20819);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.runner.RunnerClass$CucumberRunnerTests')
+data.setCell(3, 3, 16337);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.runner.RunnerClass$CucumberRunnerTests')
+data.setCell(4, 3, 15459);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'com.runner.RunnerClass$CucumberRunnerTests')
+data.setCell(5, 3, 13715);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -233,16 +388,40 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.runner.RunnerClass$CucumberRunnerTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@27dc627a)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@4281a26f)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("To validate the Login feature of the OrangeHRM", "Orange HRM Login feature test")</span>
-                <span class="method-start">498 ms</span>
+                <span class="method-name">runScenario("Employee checks add employee", "Check PIM module")</span>
+                <span class="method-start">621 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Employee checks configuration", "Check PIM module")</span>
+                <span class="method-start">25769 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Employee checks configuration", "Check PIM module")</span>
+                <span class="method-start">41235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Search for reports", "Check PIM module")</span>
+                <span class="method-start">67142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Checking Employee list", "Check PIM module")</span>
+                <span class="method-start">80863 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Checking Employee list", "Check PIM module")</span>
+                <span class="method-start">101686 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">22612 ms</span>
+                <span class="method-start">118037 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

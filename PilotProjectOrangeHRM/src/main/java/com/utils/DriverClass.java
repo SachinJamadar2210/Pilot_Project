@@ -55,18 +55,17 @@ public class DriverClass {
 	// Closes and quits the WebDriver instance, effectively ending the browser session.
 	public static void tearDown() {
 		if (driver != null) {
-			driver.quit();
+			//driver.quit();
 		}
 		
 		driverClass = null;
 	}
 
-	// Closes the currently active tab in the browser.267910 code26
-	public static void closeTab() {
-		if (driver != null) {
-			driver.close();
-		}
-		
-		driverClass = null;
-	}
+//	// Closes the currently active tab in the browser.267910 code26
+//	public static void closeTab() {
+//		if (driver != null) {
+//			//driver.close();
+//		//	driver.close();	
+//		driverClass = null;
+//	}
 }

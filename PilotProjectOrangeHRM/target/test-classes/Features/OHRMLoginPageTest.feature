@@ -6,5 +6,3 @@ Given Open Browser OrangeHRM "https://opensource-demo.orangehrmlive.com/web/inde
 When User enter the UserName and PassWord 
 And click the Login btn
 Then Validating Login Page
-
-
