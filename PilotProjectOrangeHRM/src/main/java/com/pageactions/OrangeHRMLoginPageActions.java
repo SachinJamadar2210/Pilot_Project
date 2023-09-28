@@ -18,14 +18,12 @@ public class OrangeHRMLoginPageActions {
 	public void setPassWord(String psw) {
 		loginPageLocators.passWord.sendKeys(psw);
 	}
-	public void setDropdown() {
-		loginPageLocators.DropDown.click();
-	}
+
 	public void setLoingbtn() {
 		loginPageLocators.clickBtn.click();
 	}
 	public void setLogOut() {
-		loginPageLocators.Logout.click();
+		loginPageLocators.clickBtn.click();
 	}
 	public void login(String userName,String passWord) {
 

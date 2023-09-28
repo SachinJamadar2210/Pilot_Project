@@ -1,5 +1,6 @@
 package com.stepdefinition;
 import java.io.File;
+
 import java.io.IOException;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -46,7 +47,7 @@ public class Admin_UserManagementStd {
 	
 	@When("User Enter the Search Details")
 	public void user_enter_the_search_details() {
-		aum.searchUser("One8");
+		aum.searchUser("Admin");
 	}
 	
 	@When("User Click the Search Btn")
