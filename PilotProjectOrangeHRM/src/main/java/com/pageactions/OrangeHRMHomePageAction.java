@@ -1,8 +1,5 @@
 package com.pageactions;
-
 import org.openqa.selenium.support.PageFactory;
-
-
 import com.pageobjects.OrangeHRMHomePage;
 import com.utils.DriverClass;
 
@@ -19,5 +16,4 @@ public class OrangeHRMHomePageAction {
 	public String getHomePageText() {
 		return homeLocator.homePage.getText();
 	}
-	//
 }

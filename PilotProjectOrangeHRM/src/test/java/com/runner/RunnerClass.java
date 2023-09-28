@@ -12,8 +12,6 @@ public class RunnerClass {
 			)
 	public class CucumberRunnerTests extends AbstractTestNGCucumberTests {
 
-		 
-
 	}
 }
 
