@@ -4,7 +4,6 @@ import org.openqa.selenium.JavascriptExecutor;
 
 import com.pageactions.OrangeHRMLoginPageActions;
 public class BugStriker {
-	
 	OrangeHRMLoginPageActions loginBS = new OrangeHRMLoginPageActions();
 	OrangeHRMLoginPageActions logoutBS = new OrangeHRMLoginPageActions();
 	
@@ -30,4 +29,3 @@ public class BugStriker {
 		DriverClass.getDriver().switchTo().window(handles);
 	}
 }
-
