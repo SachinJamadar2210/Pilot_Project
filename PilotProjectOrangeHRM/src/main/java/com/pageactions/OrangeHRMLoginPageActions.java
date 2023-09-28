@@ -34,7 +34,7 @@ public class OrangeHRMLoginPageActions {
 	}
 	
 	public void login() {
-		File file = new File("C:\\Users\\sjamadar\\Desktop\\SeleniumGit\\Pilot_Project\\PilotProjectOrangeHRM\\src\\test\\resources\\Features\\data.properties");
+		File file = new File("C:\\Users\\pcpatil\\Desktop\\GitEXP\\Pilot_Project\\PilotProjectOrangeHRM\\src\\test\\resources\\data.properties");
 		
 		FileInputStream fileInput = null;
 	    try {

@@ -1,43 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-22T23:20:27 IST" name="Default suite" finished-at="2023-09-22T23:20:50 IST" duration-ms="22657">
+  <suite started-at="2023-09-28T14:50:11 IST" name="Default suite" finished-at="2023-09-28T14:52:18 IST" duration-ms="127261">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass$CucumberRunnerTests@548a24a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass$CucumberRunnerTests@6f10d5b6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-09-22T23:20:27 IST" name="Default test" finished-at="2023-09-22T23:20:50 IST" duration-ms="22657">
+    <test started-at="2023-09-28T14:50:11 IST" name="Default test" finished-at="2023-09-28T14:52:18 IST" duration-ms="127261">
       <class name="com.runner.RunnerClass$CucumberRunnerTests">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runner.RunnerClass$CucumberRunnerTests@548a24a]" started-at="2023-09-22T23:20:27 IST" name="setUpClass" finished-at="2023-09-22T23:20:28 IST" duration-ms="484" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runner.RunnerClass$CucumberRunnerTests@6f10d5b6]" started-at="2023-09-28T14:50:11 IST" name="setUpClass" finished-at="2023-09-28T14:50:12 IST" duration-ms="610" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@27dc627a]]>
+                <![CDATA[org.testng.TestRunner@4281a26f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass$CucumberRunnerTests@548a24a]" started-at="2023-09-22T23:20:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-22T23:20:50 IST" duration-ms="22108" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass$CucumberRunnerTests@6f10d5b6]" started-at="2023-09-28T14:50:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-28T14:50:37 IST" duration-ms="25139" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["To validate the Login feature of the OrangeHRM"]]>
+                <![CDATA["Employee checks add employee"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Orange HRM Login feature test"]]>
+                <![CDATA["Check PIM module"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runner.RunnerClass$CucumberRunnerTests@548a24a]" started-at="2023-09-22T23:20:50 IST" name="tearDownClass" finished-at="2023-09-22T23:20:50 IST" duration-ms="11" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass$CucumberRunnerTests@6f10d5b6]" started-at="2023-09-28T14:50:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-28T14:50:52 IST" duration-ms="15459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Employee checks configuration"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Check PIM module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass$CucumberRunnerTests@6f10d5b6]" started-at="2023-09-28T14:50:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-28T14:51:18 IST" duration-ms="25902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Employee checks configuration"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Check PIM module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass$CucumberRunnerTests@6f10d5b6]" started-at="2023-09-28T14:51:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-28T14:51:32 IST" duration-ms="13715" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for reports"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Check PIM module"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.stepdefinition.SearchReportDefinition.assert_the_record(SearchReportDefinition.java:55)
+at ✽.assert the record(file:///C:/Users/pcpatil/Desktop/GitEXP/Pilot_Project/PilotProjectOrangeHRM/src/test/resources/Features/pimfeature.feature:56)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass$CucumberRunnerTests@6f10d5b6]" started-at="2023-09-28T14:51:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-28T14:51:53 IST" duration-ms="20819" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking Employee list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Check PIM module"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='oxd-select-text-input'][normalize-space()='-- Select --'])[3]"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28823a367ee22942970adb5d5a7b940d, findElement {using=xpath, value=(//div[@class='oxd-select-text-input'][normalize-space()='-- Select --'])[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\pcpatil\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54824}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54824/devtoo..., se:cdpVersion: 117.0.5938.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28823a367ee22942970adb5d5a7b940d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='oxd-select-text-input'][normalize-space()='-- Select --'])[3]"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28823a367ee22942970adb5d5a7b940d, findElement {using=xpath, value=(//div[@class='oxd-select-text-input'][normalize-space()='-- Select --'])[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\pcpatil\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54824}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54824/devtoo..., se:cdpVersion: 117.0.5938.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28823a367ee22942970adb5d5a7b940d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy42.click(Unknown Source)
+at com.pageactions.EmployeeListAction.enterDetails(EmployeeListAction.java:52)
+at com.pageactions.EmployeeListAction.detailsOfEmployee(EmployeeListAction.java:78)
+at com.stepdefinition.EmployeeListDefinition.enter_the_details(EmployeeListDefinition.java:14)
+at ✽.enter the details(file:///C:/Users/pcpatil/Desktop/GitEXP/Pilot_Project/PilotProjectOrangeHRM/src/test/resources/Features/pimfeature.feature:64)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass$CucumberRunnerTests@6f10d5b6]" started-at="2023-09-28T14:51:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-28T14:52:09 IST" duration-ms="16337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking Employee list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Check PIM module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runner.RunnerClass$CucumberRunnerTests@6f10d5b6]" started-at="2023-09-28T14:52:09 IST" name="tearDownClass" finished-at="2023-09-28T14:52:18 IST" duration-ms="9193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
