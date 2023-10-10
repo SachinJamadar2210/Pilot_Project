@@ -21,8 +21,9 @@ public class OrangeLoginStepDefinition {
 	}
 	
 	@When("^User enter the (.*) and (.*)$")
-	public void user_enter_the_user_name_and_pass_word(String UserName,String PassWord) {
+	public void user_enter_the_user_name_and_pass_word(String UserName,String PassWord)  {
 		DLPC.login(UserName, PassWord);
+		
 	}
 	
 	@When("click the Login btn")

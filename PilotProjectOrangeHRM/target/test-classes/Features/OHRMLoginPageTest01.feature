@@ -11,10 +11,7 @@ Examples:
 |UserName|PassWord|
 |Admin|admin123|
 
-
 @Invalid_Credential
 Examples:
 |UserName|PassWord|
-|Admin|admin13|
-
-
+|Admin|admin12|

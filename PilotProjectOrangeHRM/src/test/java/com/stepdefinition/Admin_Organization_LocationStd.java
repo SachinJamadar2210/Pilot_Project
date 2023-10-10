@@ -48,9 +48,9 @@ public class Admin_Organization_LocationStd {
 	
 	@Then("get the user and validate the user by it location")
 	public void get_the_user_and_validate_the_user_by_it_location() throws IOException {
-//		BugStriker.WindowScroll("200");
-//		File screenshotfile = ((TakesScreenshot)DriverClass.getDriver()).getScreenshotAs(OutputType.FILE);
-//		FileUtils.copyFile(screenshotfile,new File("Screenshots\\OrganiztionSearch.png"));
+		BugStriker.WindowScroll("200");
+		File screenshotfile = ((TakesScreenshot)DriverClass.getDriver()).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(screenshotfile,new File("Screenshots\\OrganiztionSearch.png"));
 	}
 	
 }

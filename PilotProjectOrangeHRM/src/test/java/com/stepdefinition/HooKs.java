@@ -10,6 +10,7 @@ import com.utils.BugStriker;
 import com.utils.DriverClass;
 
 import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.When;
 
@@ -19,6 +20,10 @@ public class HooKs {
 	public void Use_enter_login_details(){
 		bs.setLoginBS();
 	}
+	@Before(order = 1)
+		public void before() {
+			DriverClass.setUpDriver();;
+		}
 	@After(order = 1)
 	public void takeScreenshot(Scenario scenario) throws IOException{
 		if(scenario.isFailed()) {
@@ -34,6 +39,7 @@ public class HooKs {
 	@After(order = 0)
 	public void setLogout() {
 		bs.setLogoutBS();
+		
 	}
 
 }
